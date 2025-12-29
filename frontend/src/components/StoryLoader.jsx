@@ -8,6 +8,7 @@ import {API_BASE_URL} from "../util.js";
 
 function StoryLoader() {
     const {id} = useParams();
+    console.log("id is :", id)
     const navigate = useNavigate();
     const [story, setStory] = useState(null);
     const [loading, setLoading] = useState(true)
